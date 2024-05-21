@@ -19,7 +19,7 @@ Some test cases may use duplicate stones in a chain solution, assume that multip
 
 ## Performance
 
-You can go to ..dominoesBenchmark folder and will find a benchmark done using [BenchmarkDotNet][]. Also you can find the complete results in 
+You can go to .dominoesBenchmark folder and will find a benchmark done using [BenchmarkDotNet][]. Also you can find the complete results in 
 BenchmarkDotNet.Artifacts folder.
 
 ![img.png](img.png)

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>BenchMe-20240520-211051</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.13.12, Windows 11 (10.0.22631.3593/23H2/2023Update/SunValley3)
+AMD Ryzen 7 2700X, 1 CPU, 16 logical and 8 physical cores
+.NET SDK 8.0.204
+  [Host]     : .NET 8.0.4 (8.0.424.16909), X64 RyuJIT AVX2
+  DefaultJob : .NET 8.0.4 (8.0.424.16909), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method    </th><th>input</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Gen0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>ReverseLinQ</td><td></td><td>27.428 ns</td><td>0.6064 ns</td><td>0.8697 ns</td><td>0.0191</td><td>80 B</td>
+</tr><tr><td>Reverse</td><td></td><td>10.841 ns</td><td>0.1120 ns</td><td>0.0936 ns</td><td>0.0249</td><td>104 B</td>
+</tr><tr><td>ReverseCharArray</td><td></td><td>2.866 ns</td><td>0.0185 ns</td><td>0.0144 ns</td><td>-</td><td>-</td>
+</tr><tr><td>ReverseLinQ</td><td>I&#39;m hungry!</td><td>140.659 ns</td><td>0.3349 ns</td><td>0.2614 ns</td><td>0.0687</td><td>288 B</td>
+</tr><tr><td>Reverse</td><td>I&#39;m hungry!</td><td>37.543 ns</td><td>0.1558 ns</td><td>0.1301 ns</td><td>0.0363</td><td>152 B</td>
+</tr><tr><td>ReverseCharArray</td><td>I&#39;m hungry!</td><td>25.347 ns</td><td>0.1971 ns</td><td>0.1748 ns</td><td>0.0229</td><td>96 B</td>
+</tr><tr><td>ReverseLinQ</td><td>racecar</td><td>106.274 ns</td><td>1.0478 ns</td><td>0.9801 ns</td><td>0.0554</td><td>232 B</td>
+</tr><tr><td>Reverse</td><td>racecar</td><td>29.746 ns</td><td>0.2604 ns</td><td>0.2308 ns</td><td>0.0344</td><td>144 B</td>
+</tr><tr><td>ReverseCharArray</td><td>racecar</td><td>22.841 ns</td><td>0.1301 ns</td><td>0.1154 ns</td><td>0.0191</td><td>80 B</td>
+</tr><tr><td>ReverseLinQ</td><td>robot</td><td>101.953 ns</td><td>0.5743 ns</td><td>0.4796 ns</td><td>0.0535</td><td>224 B</td>
+</tr><tr><td>Reverse</td><td>robot</td><td>26.881 ns</td><td>0.5877 ns</td><td>0.8615 ns</td><td>0.0325</td><td>136 B</td>
+</tr><tr><td>ReverseCharArray</td><td>robot</td><td>22.141 ns</td><td>0.1231 ns</td><td>0.1028 ns</td><td>0.0172</td><td>72 B</td>
+</tr></tbody></table>
+</body>
+</html>
