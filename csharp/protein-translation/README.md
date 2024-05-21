@@ -49,6 +49,15 @@ Learn more about [protein translation on Wikipedia][protein-translation].
 
 [protein-translation]: https://en.wikipedia.org/wiki/Translation_(biology)
 
+## Performance
+
+You can go to ..proteinTranslationBenchmark folder and will find a benchmark done using [BenchmarkDotNet][]. Also you can find the complete results in
+BenchmarkDotNet.Artifacts folder.
+
+![img.png](img.png)
+
+[BenchmarkDotNet]: https://benchmarkdotnet.org/index.html
+
 ## Source
 
 ### Created by
