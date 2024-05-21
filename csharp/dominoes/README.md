@@ -21,6 +21,8 @@ Some test cases may use duplicate stones in a chain solution, assume that multip
 You can go to .bobPerformance folder and will find a benchmark done using [BenchmarkDotNet][]. Also you can find the complete results in 
 BenchmarkDotNet.Artifacts folder.
 
+![img.png](img.png)
+
 [BenchmarkDotNet]: https://benchmarkdotnet.org/index.html
 
 ## Source
