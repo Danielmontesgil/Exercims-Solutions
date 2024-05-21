@@ -36,7 +36,7 @@ Bob only ever answers one of five things:
 
 ## Performance
 
-You can go to .bobPerformance folder and will find a benchmark done using [BenchmarckDotNet][]. Also you can find the
+You can go to .bobPerformance folder and will find a benchmark done using [BenchmarkDotNet][]. Also you can find the
 complete results in BenchmarkDotNet.Artifacts folder.
 
 ![img.png](img.png)
