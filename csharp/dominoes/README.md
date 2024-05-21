@@ -17,6 +17,12 @@ For stones `[1|2]`, `[4|1]` and `[2|3]` the resulting chain is not valid: `[4|1]
 
 Some test cases may use duplicate stones in a chain solution, assume that multiple Domino sets are being used.
 
+## Performance
+You can go to .bobPerformance folder and will find a benchmark done using [BenchmarkDotNet][]. Also you can find the complete results in 
+BenchmarkDotNet.Artifacts folder.
+
+[BenchmarkDotNet]: https://benchmarkdotnet.org/index.html
+
 ## Source
 
 ### Created by
