@@ -34,6 +34,15 @@ Bob only ever answers one of five things:
 - **"Whatever."**
   This is what he answers to anything else.
 
+## Performance
+
+You can go to .bobPerformance folder and will find a benchmark done using [BenchmarckDotNet][]. Also you can find the
+complete results in BenchmarkDotNet.Artifacts folder.
+
+![img.png](img.png)
+
+[BenchmarkDotNet]: https://benchmarkdotnet.org/index.html
+
 ## Source
 
 ### Contributed to by
